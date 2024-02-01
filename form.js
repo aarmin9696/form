@@ -74,7 +74,7 @@ form.addEventListener("submit", async function(event) {
         method: "POST",
         headers: {
             "Authorization": "Bearer 1000.a10b8f629862b326d63b35211a58afb7.089fb5303ec39042079dead131d12d34",
-            "Content-Type": "application/x-www-form-urlencoded, multipart/form-data",
+            "Content-Type": "application/json",
         },
         body: JSON.stringify(jsonData),
     }).then(function(response) {
