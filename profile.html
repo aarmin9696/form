@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      
+    }
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      
+    }
+    .navbar-right p {
+      margin-right: 10px;
+    }
+    a{
+        margin: 10px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    body {
+      background-color: black;
+      color: white;
+    }
+    #profileContainer{
+        font-size: xx-large;
+        margin: 0 20px;
+    }
+    #logoutButton{
+        padding: 15px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>My App</h1>
+    <div class="navbar-right">
+      <p id="fullName"></p>
+      <a href="index.html">Signup</a>
+      <a href="profile.html">Profile</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="profileContainer">
+    <h3>Profile</h3>
+    <p><strong>Full Name:</strong> <span id="fullNameValue"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Password:</strong> <span id="password"></span></p>
+    <button id="logoutButton">Logout</button>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
