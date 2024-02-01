@@ -3,7 +3,7 @@ form.setAttribute("method", "post");
 form.setAttribute("action", "https://www.zohoapis.in/crm/v2/Contacts");
 
 // Create input fields
-var fields = ["First Name", "Last Name", "Company Name", "Work Email", "Contact Number", "Mode of Shipment", "Countries You Ship", "Monthly Shipment", "Customer Type", "Where Did You Hear About Us"];
+var fields = ["First Name", "Last Name", "Company Name", "Work Email", "Contact Number", "Mode of Shipment", "Countries You Ship1", "Monthly Shipment", "Customer Type", "Where Did You Hear About Us"];
 fields.forEach(function(field) {
     var input = document.createElement("input");
     input.setAttribute("type", "text");
