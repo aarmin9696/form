@@ -17,7 +17,7 @@ var checkbox = document.createElement("input");
 checkbox.setAttribute("type", "checkbox");
 checkbox.setAttribute("name", "agree_to_terms");
 var label = document.createElement("label");
-label.innerHTML = "I agree to the Zindus terms of use and acknowledge its privacy statements1";
+label.innerHTML = "I agree to the Zindus terms of use and acknowledge its privacy statements";
 form.appendChild(checkbox);
 form.appendChild(label);
 
